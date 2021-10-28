@@ -277,7 +277,7 @@ input:focus{
 .tabs_content{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 78.8%;
     padding: 141px 0 0 0;
 }
 
@@ -362,12 +362,12 @@ input:focus{
 .sub_list{
     background-color: white;
     display: flex;
-    padding-bottom: 161px;
+    padding-bottom: 125px;
     justify-content: center;
 }
 
 .sub_list_content{
-    width: 80%;
+    width: 78.8%;
     display: flex;
     justify-content: space-between;
 }
@@ -443,4 +443,74 @@ input:focus{
 
 .upload_block{
     width: 84%;
+}
+
+.standard_picture_section{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 125px;
+}
+
+.standard_picture_section_content{
+    width: 78.8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.standard_picture_header{
+    margin-top: 98px;
+    word-spacing: 6px;
+}
+
+.standard_line{
+    margin-top: 25px;
+    width: 10%;
+    height: 2px;
+    background-color: #ff8b38;
+}
+
+.left_block_standard_picture{
+    width: 106%;
+}
+
+.left_standard_first_text{
+    width: 71%;
+    margin-top: 24px;
+}
+
+.width_text{
+    font-size: 14px;
+    color: #86878b;
+    word-spacing: -1px;
+}
+
+.left_standard_second_text{
+    margin-top: 20px;
+    width: 72%;
+}
+
+.right_block_standard_picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 139px;
+    padding-bottom: 67px;
+    margin-top: 88px;
+    background-color: #9a9a9a;
+    color: #b0b0b0;
+    width: 68%;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 50%);
+}
+
+.right_block_standard_picture_text{
+    font-size: 32px;
+    width: 50%;
+    text-align: center;
+}
+
+.right_block_standard_picture_text:hover{
+    cursor: pointer;
 }
