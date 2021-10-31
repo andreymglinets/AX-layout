@@ -7,6 +7,10 @@
     font-family: 'Open Sans';
 }
 
+.relawey{
+    font-family: 'Raleway', sans-serif;
+}
+
 header{
     width: 100%;
     background-color: #000000;
@@ -578,4 +582,117 @@ input:focus{
     font-size: 13px;
     width: 91%;
     margin: 22px 0 0 21px;
+}
+
+.pricing_options{
+    justify-content: center;
+    padding-top: 97px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.pricing_options_title {
+    font-size: 34px;
+}
+
+.pricing_options_line{
+    background-color: #ff8b38;
+    height: 2px;
+    margin: 22px auto 0;
+    width: 6%;
+}
+
+.tariffs_blocks{
+    display: flex;
+    justify-content: center;
+    padding: 77px 0  89px 0;
+    background-color: #f5f5f5;
+}
+
+.tariffs_blocks_content{
+    width: 78.8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.blocks_tariffs{
+    width:31%;
+}
+
+.tariff_coast{
+    font-family: 'Raleway';
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 124px;
+}
+
+.prise_tariff{
+    font-family: 'Raleway';
+}
+
+.tariff_color{
+    background-color: #333333;
+    color: white;
+}
+
+.blocks_tariffs_margin{
+    margin: 33px 0 0 0;
+}
+
+.tariff_title{
+    height: 56px;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid #f5f5f5;
+    display: table-cell;
+    vertical-align: middle;
+    width: 1%;
+}
+
+.description_tariff{
+    background-color: #333333;
+    color: white;
+    padding-bottom: 18px;
+}
+
+.prise_tariff{
+    font-size: 88px;
+}
+
+.currency_tarrif{
+    margin-top: 14%;
+    font-size: 35px;
+}
+
+.description_tariff{
+    font-size: 15px;
+    font-style: italic;
+    margin: -4.6% 0 0 0;
+}
+
+.boreder_block{
+    height: 5px;
+    background-color: #ff8b38;
+}
+
+.boreder_block_text{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    width: 1%;
+    height: 37px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.conditions_blocks {
+    color: #86878b;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 10px 0 10px 0;
 }
